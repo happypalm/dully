@@ -1,0 +1,33 @@
+<style> </style> 안에 쓴다.
+모든 css는 ;를 넣어서 구분해준다.
+
+선택자 안에 써야함
+ex)
+a{
+    color: red;
+}
+여기서 a{ }는 선택자(selector)이고 뜻은 웹페이지에 있는 모든 a태그를 선택한다는 뜻이다.
+안의내용인 color: red;는 선택자가 지정한 태그에대해서 어떤 효과를 줄지 말해준다. 선언(declaraion)이라고 불린다.
+color라는 뜻은 속성을 의미하는 property라고 불리고 red는 property의 값인 value라고 한다.
+
+---------------------------------------------------------------------------------------------------------
+
+border관련 css
+
+border: 숫자px; - 보더의 두께
+border-style: ~~; - 보더의 선 종류
+border-color: 색깔; - 보더의 색깔
+padding: 숫자px; - 보더안의 컨텐츠와 보더사이의 간격
+margin: 숫자px; - 보더와 보더 사이의 간격
+display: none; - 이 태그 없앰
+width: 숫자px; 보더의 길이
+
+
+grid관련 css
+
+<div> </div>
+<span> </span>
+둘중 하나로 묶고
+<div id="grid">로 놓는다.
+위에 <style>안에 #grid를 쳐서 id를 생성한다.
+생성한 id안에 display: grid;를 입력한다.
