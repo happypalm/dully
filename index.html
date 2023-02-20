@@ -29,7 +29,11 @@
             }
             #grid{
                 display:grid;
-                grid-template-columns: 200px;
+                grid-template-columns: 200px 1fr;
+            }
+            #article{
+                padding-left: 5px;
+                padding-top: 20px;
             }
             @media(max-width:700px){
                 #grid{
@@ -52,6 +56,9 @@
                 <li><a href="2.html">둘리의 능력</a></li>
                 <li><a href="3.html">내용 출처</a></li>
             </ul>
+            <div id="article">
+                <img src="dully.jpg" width="500">
+            </div>
         </div>
     </body>
 </html>
